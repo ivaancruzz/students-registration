@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesas de examen 2021</title>
+  <link rel="stylesheet" href="css/formulario-inscripcion.css">
+  <link rel="stylesheet" href="css/static/bulma.css">
+  <link rel="stylesheet" href="css/static/bulma-rtl.css">
+</head>
+<body>
+  <section class="hero is-danger is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-7">
+
+            <!-- BOX -->
+            <div id="box" class="box ">
+              
+              <div class="columns">
+                <div class="column">
+
+                  <!--Header box-->
+                  <div class="level ">
+                    <div class="level-item ">
+                      <i class=" fas fa-graduation-cap fa-5x"></i>
+                    </div>
+                    <div class="level-item ">
+                      <div>
+                        <p class="heading has-text-dark has-text-centered">
+                          Mesas de examen 2021
+                        </p>
+                        <h5 class="title has-text-dark has-text-centered">
+                          Inscripciónes abiertas
+                        </h5 >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns is-centered">
+                <div class="column is-9 mt-5">
+                  <!--Formulario-->
+                  <form action="#" id="form-enviar">
+                    <div class="field ">
+                      <label for="" class="label is-small">Nombre completo</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input id="name" type="text" class="input is-rounded" placeholder="Tu nombre">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </div>
+                      <p id="name" class="help is-hidden"></p>
+                    </div>
+                    <div class="field ">
+                      <label for="" class="label is-small">Email</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input id="email" type="email" class="input is-rounded" placeholder="ejemplo@gmail.com">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                      </div>
+                      <p id="email" class="help is-hidden"></p>
+                    </div>
+                    <div class="field ">
+                      <label for="" class="label is-small">Materia a rendir</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input id="materia" type="text" class="input is-rounded" placeholder="Nombre de la materia">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-chalkboard-teacher"></i>
+                        </span>
+                      </div>
+                    </div>
+                    
+                  </form>
+                  <div class="field mt-4">
+                    <div class="control">
+                      <button id="btn-enviar" class="button is-danger is-rounded is-fullwidth">Inscribirse</button>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Link cp -->
+            <div class="content mt-0 has-text-centered">
+              <small>¿Eres profesor? <a href="cp-profesores.html" class="has-text-weight-bold"><u>Ingresa</u></a> al panel para profesores!</small>
+            </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/2f0cd97c1d.js" crossorigin="anonymous"></script>
+</body>
+</html>

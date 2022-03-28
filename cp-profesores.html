@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz</title>
+
+    <link rel="stylesheet" href="css/panel-profesores.css">
+    <link rel="stylesheet" href="css/static/bulma.css">
+    <link rel="stylesheet" href="css/static/bulma-rtl.css">
+
+</head>
+<body>
+    <section class="hero is-fullheight is-primary ">
+        <div class="hero-head">
+            <div class="columns is-centered mt-4">
+                <div id="slide-title" class="column is-12 has-text-centered ">
+                    <p class="heading">
+                        MESAS DE EXAMEN 2021
+                    </p>
+                    <h5 class="title">
+                        <span id="count-solicitys" class="has-text-weight-bold"></span> <span id="text-solicity"></span> de Inscripción
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="hero-body">
+            <div class="container ">
+                <div class="columns has-text-dark is-centered">
+                    <!--Formularios sin aceptar -->
+                    <div class="column is-4 ">
+                        <!--Box -->
+                        <div id="box" class="box is-hidden" style="position: relative;">
+                            <div class="columns">
+                                <div class="column">
+                                    <div class="level">
+                                        <div class="level-item">
+                                            <i class="fas fa-user fa-4x"></i>
+                                        </div>
+                                        <div class="level-item">
+                                            <div>
+                                                <p id="name" class="title has-text-dark has-text-weight-bold is-spaced">
+                                                    Ivan Cruz
+                                                </p>
+                                                <p id="email" class="subtitle is-6 has-text-dark">
+                                                    asdasd@gmail.com
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="columns mt-5">
+                                <div class="column has-text-centered">
+                                    <p class="heading">Materia</p>
+                                    <p id="materia" class="title has-text-dark has-text-weight-light">Lengua</p>
+                                </div>
+                            </div>
+
+                            <div class="columns mt-5 ">
+                                <div class="column">
+                                    <div class="level">
+                                        <div class="level-item"><label for="" class="label is-small">Semana a rendir:</label></div>
+                                        <div class="level-item">
+                                            <div class="select is-rounded is-fullwidth is-danger">
+                                                <select name="" id="select-semana">
+                                                    <option value="1">Semana 1</option>
+                                                    <option value="2">Semana 2</option>
+                                                    <option value="3">Semana 3</option>
+                                                    <option value="4">Semana 4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                            <div class="columns is-mobile is-overlay " style="top: 94%;">
+                                <div class="column"  >
+                                   <div class="level is-mobile">
+                                       <div class="level-item ">
+                                           <button id="denegar" class="box button is-large is-danger" style="border-radius: 100%;">
+                                                <span class="icon ">
+                                                    <i class="fas fa-user-times"></i>
+                                                </span>
+                                           </button>
+                                       </div>
+                                       <div class="level-item">
+                                        <button id="aceptar" class="box button is-large is-success" style="border-radius: 100%;">
+                                            <span class="icon">
+                                                <i class="fas fa-user-check"></i>
+                                            </span>
+                                       </button>
+                                       </div>
+                                   </div>
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/2f0cd97c1d.js" crossorigin="anonymous"></script>
+</body>
+</html>

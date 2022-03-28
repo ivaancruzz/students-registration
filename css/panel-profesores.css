@@ -1,0 +1,64 @@
+.show{
+    animation-name: show-box;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show-box {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(auto);
+    }
+    
+    
+}
+
+.slide-aceppted{
+    position: relative;
+    animation-name: slide-aceppted;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+   
+}
+
+@keyframes slide-aceppted {
+    0%{
+        left: 0px;
+    }
+
+    30%{
+        left: -100px;
+
+    }
+    100%{
+        left: 1000px;
+        visibility: hidden;
+    }
+}
+
+.slide-denieged{
+    position: relative;
+    animation-name: slide-denieged;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-denieged {
+    0%{
+        left: 0px;
+    }
+
+    30%{
+        left: 100px;
+
+    }
+    100%{
+        left: -1000px;
+        visibility: hidden;
+    }
+}
+
+
